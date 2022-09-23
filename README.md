@@ -15,6 +15,15 @@
 ![Landing Page](/screenshots/friendlyface.png "Landing Page")
 
 
+## Built With
+
+![HTML](https://img.shields.io/badge/-HTML-orange "HTML")
+
+![CSS](https://img.shields.io/badge/-CSS-blue "CSS")
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow "JavaScript")
+
+
 
 ## Sources
 
