@@ -102,6 +102,64 @@ main {
     border-radius: 50%;
 }
 
+.eye-movement-start {
+    animation: centerToLeft 4s ease-in;
+}
+
+.eye-inner-movement-start::after {
+    animation: centerToLeftInner 4s ease-in;
+}
+
+.eye-movement-continue {
+    animation: leftToRight 16s ease-in-out infinite;
+}
+
+.eye-inner-movement-continue::after {
+    animation: leftToRightInner 16s ease-in-out infinite;
+}
+
+@keyframes centerToLeft {
+    from {
+        transform: translate(0%, 0%);
+    }
+    to {
+        transform: translate(-20%, 0%);
+    }
+}
+
+@keyframes centerToLeftInner {
+    from {
+        transform: translate(-50%, -50%);
+    }
+    to {
+        transform: translate(-110%, -50%);
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        transform: translate(-20%, 0%);
+    }
+    50% {
+        transform: translate(20%, 0%);
+    }
+    100% {
+        transform: translate(-20%, 0%);
+    }
+}
+
+@keyframes leftToRightInner {
+    0% {
+        transform: translate(-110%, -50%);
+    }
+    50% {
+        transform: translate(20%, -50%);
+    }
+    100% {
+        transform: translate(-110%, -50%);
+    }
+}
+
 @media (max-width: 750px) {
     main {
         width: 92.5%;
