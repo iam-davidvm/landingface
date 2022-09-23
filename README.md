@@ -1,6 +1,6 @@
 # Landingface
 
-<p>A landing page for a website that doesn't have any content in the near future.</p>
+<p>A landing page for a website that doesn't have any content in the near future. I tried to make a cute face where the eyes follow the mouse position. If you're on a mobile device, there is an animation of the eyes.</p>
 <p>In this project I wanted to challenge myself with working a bit more with the positioning of divs in divs and the after pseudo-element.</p>
 
 
